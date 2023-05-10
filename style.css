@@ -87,20 +87,51 @@ h1 {
 
 @media (min-width: 768px) and (max-width: 991px) {
     .container1 {
-        width: 20%;
-        justify-content: space-around;
+        width: 30%;
+        margin: 20px;
     }
 
     .container2 {
-        width: 20%;
-        justify-content: space-around;
+        width: 30%;
+        margin: 10px;
+        
     }
     .container3 {
-        width: 40%;
-        display: flex;
-        justify-content: baseline;
+        width: 80%;
+        margin: 20px;
+    }
 
+    .main {
+        display: table;
+    }
+
+    .main .container2 {
+        float: right;
+        position: relative;
+        bottom: 435px;
+        right: 150px;
     }
 }
+@media screen and (max-width: 767px) {
+    .container1 {
+        width: 90%;
+        margin: 10px;
+    }
+
+    .container2 {
+        width: 90%;
+        margin: 10px;
+    }
+
+    .container3 {
+        width: 90%;
+        margin: 10px;
+    }
+
+    .main {
+  display: table;
+    }
+}
+
 
   
